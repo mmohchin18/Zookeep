@@ -1,26 +1,26 @@
+import main.Animal;
 
-    public abstract class Mammal<String> extends Animal {
+public abstract class Mammal<String> extends Animal {
 
-            /////////////////////////Attributes////////////////
+        /////////////////////////Attributes////////////////
 
-            String colour;
+        String colour;
 
-            ////////////////////////Constructors///////////////////////
-
-
+        ////////////////////////Constructors///////////////////////
 
 
-            //////////////////////////Methods/////////////////////////
-            public void breathe(){
-                System.out.println("Breathe in... breathe out");
-            }
-
-            @Override
-            public void reproduce() {
-                System.out.println("I do a Live Birth");
-            }
+        //////////////////////////Methods/////////////////////////
+        public void breathe() {
+            System.out.println("Breathe in... breathe out");
         }
+    }
 
+//            @Override
+//            public void reproduce() {
+//                System.out.println("I do a Live Birth");
+//            }
+//        }
+//
 
 
 

@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+
 public class Cat<String, LocalDate> extends Mammal {
 
     private static final java.lang.Object LocalDate = null;
@@ -36,4 +37,7 @@ public class Cat<String, LocalDate> extends Mammal {
     public void reproduce() {
 
     }
+
+
+    private Object System;
 }
