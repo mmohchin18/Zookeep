@@ -13,7 +13,7 @@ public class Main {
 //        List zoo = new ArrayList<Zoo>();
 //        //zoo.add(new Bat());
 
-
+//        Bat b = new Bat("Moggy","Bat", LocalDate.now() );
 
 
 
