@@ -1,9 +1,9 @@
 import java.time.LocalDate;
 
 
-public class Cat<String, LocalDate> extends Mammal {
+public class Cat extends Mammal {
 
-    private static final java.lang.Object LocalDate = null;
+   // private static final java.lang.Object LocalDate = null;
     //////////////////Attributes///////////////////////////
     private String breed;
     private LocalDate dateOfBirth;
@@ -18,9 +18,9 @@ public class Cat<String, LocalDate> extends Mammal {
         // this(name, LocalDate.now());
     }
 
-    public <LocalDate> Cat(String name, LocalDate dOB) {
-       // this(name, LocalDate.now(), "DSH");
-    }
+//    public <LocalDate> Cat(String name, LocalDate dOB) {
+//        this(name, LocalDate.now(), "DSH");
+//    }
 
     public Cat(String name, LocalDate dOB, String breed) {
         this.name = name;
