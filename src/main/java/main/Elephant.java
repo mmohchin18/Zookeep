@@ -1,3 +1,5 @@
+package main;
+
 import java.time.LocalDate;
 public class Elephant extends Mammal {
     private String name;
