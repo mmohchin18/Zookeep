@@ -42,6 +42,11 @@ public class Dog extends Mammal{
         }
 
     @Override
+    public void breathe() {
+
+    }
+
+    @Override
     public void reproduce() {
 
     }

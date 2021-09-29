@@ -2,13 +2,13 @@ package main;
 
 import java.time.LocalDate;
 
-public class Bat extends Main {
+public class Bat {
     public String Mammal;
     //////////Attributes//////////
     private boolean windy;
     private String breed;
     private LocalDate dateOfBirth;
-    private boolean name;
+    private String name;
 
     public Bat(String name, String mammal) {
 
@@ -16,6 +16,10 @@ public class Bat extends Main {
     }
 
     public Bat(String moggy, String bat, LocalDate now) {
+
+    }
+
+    public Bat(double v, String sphinx, int i) {
 
     }
 
@@ -27,7 +31,7 @@ public class Bat extends Main {
     public Bat(String mammal) {
 
         this((String) "Moggy", mammal);
-        this.name = true;
+        //this.name = true;
     }
 
 

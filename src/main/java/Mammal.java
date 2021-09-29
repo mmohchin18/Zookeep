@@ -10,17 +10,18 @@ public abstract class Mammal<String> extends Animal {
 
 
         //////////////////////////Methods/////////////////////////
-        public void breathe() {
-            System.out.println("Breathe in... breathe out");
+        public abstract class Animal {
+            public abstract void breathe ();
+            public abstract void eat ();
+            public void sleep(){
+                System.out.println("I am asleep");
+            }
+            public void die (){
+                System.out.println("I am dead");
+            }
+            public abstract void reproduce ();{
+            }
         }
-    }
-
-//            @Override
-//            public void reproduce() {
-//                System.out.println("I do a Live Birth");
-//            }
-//        }
-//
-
+}
 
 

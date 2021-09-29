@@ -14,7 +14,7 @@ public class Main {
 //        //zoo.add(new Bat());
 
         Bat b = new Bat("Moggy","Bat", LocalDate.now() );
-        b.Weather(");
+
 
 
 
