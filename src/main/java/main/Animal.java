@@ -18,7 +18,7 @@ public abstract class Animal {
 
 
     //////////////////Methods/////////////////////////////////
-    public abstract void breathe();
+    public abstract String breathe();
 
 
     public void sleep(){
@@ -30,7 +30,7 @@ public abstract class Animal {
 //        System.out.println("I am dead");
 //    }
 
-    public abstract void reproduce();
+    public abstract String reproduce();
 
     // public abstract java.lang.Object getClass();
 }

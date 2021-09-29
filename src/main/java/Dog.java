@@ -42,13 +42,14 @@ public class Dog extends Mammal{
         }
 
     @Override
-    public void breathe() {
+    public String breathe() {
+            return "I can breathe";
 
     }
 
     @Override
-    public void reproduce() {
-
+    public String reproduce() {
+    return "I can reproduce";
     }
 }
 
