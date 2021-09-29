@@ -6,14 +6,16 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//public class BatTest{
-//    @Test
-//        @DisplayName("Tests if it is windy")
-//    Bat testBat = new Bat(10.3, "Sphinx",  30);
-//        testBat.setDateOfBirth(LocalDate.ofYearDay(2020, 1));
-//     assertEquals(2020, testBat.(), "Unexpected date returned");
-}
+public class BatTest{
+    @Test
+    @DisplayName("Flying Test")
+        public void TestifBatCanFly(){
+        Bat testBat = new Bat();
 
+        assertEquals("Flying because it's not windy", testBat.flying(true), "Unexpected return");
+    }
+
+    }
 
 
 

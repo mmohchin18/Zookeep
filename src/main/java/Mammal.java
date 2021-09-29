@@ -1,6 +1,6 @@
 import main.Animal;
 
-public abstract class Mammal<String> extends Animal {
+public abstract class Mammal extends Animal {
 
         /////////////////////////Attributes////////////////
 

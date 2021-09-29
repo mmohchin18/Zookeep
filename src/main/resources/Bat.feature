@@ -12,3 +12,5 @@ Feature: Flying Bat
       @Given It is sunny
       @And The bat does not take off
       @When The bat does not fly
+
+
