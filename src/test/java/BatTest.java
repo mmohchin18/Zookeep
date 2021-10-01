@@ -11,7 +11,6 @@ public class BatTest{
     @DisplayName("Flying Test")
         public void TestifBatCanFly(){
         Bat testBat = new Bat();
-
         assertEquals("Flying because it's not windy", testBat.flying(true), "Unexpected return");
     }
 

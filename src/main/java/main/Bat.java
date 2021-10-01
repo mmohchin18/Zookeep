@@ -8,15 +8,9 @@ public class Bat {
 
     //////////Attributes//////////
 
-    private String breed;
-    private LocalDate dateOfBirth;
-    private String name;
-
-
 
     //////////Constructors////////
 
-// helloooo 22
 
 
     //////////Methods/////////////
